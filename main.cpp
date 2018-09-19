@@ -1,4 +1,4 @@
-//Authors:
+//Author:Eric Perez
 #include<iostream>
 #include<string>
 
@@ -7,10 +7,22 @@ using namespace std;
 int main()
 {
   //declare variables
+string first;
 
-  //get user input
+string last;
 
-  //tell fortune
+
+
+//get user input
+
+std::cout << " What is your first name? " << first << endl;
+std::cin >> first;
+std::cout << " What is your last name? " << last << endl;
+std::cin >> last;
+
+
+//tell fortune
+
 
   return 0;
 }
